@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #96ff35;
+  width: 600px;
+  margin: 0 auto;
+  top: 0;
+  padding: 5px;
+}
+#header {
+  margin: inherit;
+  top: 0;
+}
+#header h1{
+  font: 25pt lucida, monospace;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buttons {
+  width: 40%;
+  margin: 0 auto;
+}
+button {
+  font: 11pt arial, sans-serif;
+  background-color: white;
+  color: #3fd300;
+  border-radius: 1;
+  padding: 3px 5px;
+  border: 1px solid #3fd300;
+  box-shadow: none;
+}
+button:hover {
+  color: white;
+  background-color: #3fd300;
+}
+.sketch {
+  padding: 5px;
+}
+.pad {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  margin: 0 auto;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+.cell {
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  display: inline-block;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sketch {
+  padding: 5px;
+  background-color: black
+}
+
+.pad {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}
+
+.cell {
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  display: inline-block;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
