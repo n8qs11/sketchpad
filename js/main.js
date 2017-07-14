@@ -19,7 +19,8 @@ $(document).ready(function() {
     $(".cell").css("background-color", "white");
   });
   $("#colorPick").click(function() {
-    color = prompt("Please type a color")
+    color = prompt("Please type a color");
+    $("#pen").css("background-color", color);
   });
   $("#size").click(function() {
     generatePad(prompt("grid size"));
